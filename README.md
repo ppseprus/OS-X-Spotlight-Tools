@@ -6,4 +6,13 @@ I use Spotlight Comments to tag my files; the tags are separated with whitespace
 I've been tagging my files for a few years now; moving from one drive to another. And from time to time, I end up messing up something. That's why, through out the years, I created a set of scripts to maintain order. I want to share them with You!
 
 
-* 
+### The ```.DS_Store``` issue
+
+Every once in a while, you have to delete some (or all) of your ```.DS_Store``` files for whatever reasons. But it could make your life with Finder Comments frustrating.
+
+When you append a comment to a file, it is saved both in
+1. the Extended File Attributes and in
+2. the ```.DS_Store``` files.
+
+Finder only reads the latter one and once those files are gone, there is no built-in trick that would rebuild them for you. You might be able to still search for the files with Spotlight, but appending another tag would overwrite any previous one.
+
