@@ -1,4 +1,4 @@
-# OS X Spotlight Tools
+# OS X Spotlight Hacks
 
 
 I use Spotlight Comments to tag my files; the tags are separated with whitespaces and each of them start with the ```&``` symbole. Something like this: ```&tag1 &tag2 &tag3```
