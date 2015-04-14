@@ -11,12 +11,14 @@ I've been tagging my files for a few years now; moving from one drive to another
 Every once in a while, you have to delete some (or all) of your ```.DS_Store``` files for whatever reasons. But it could make your life with Finder Comments frustrating.
 
 When you append a comment to a file, it is saved both in
+
 1. the Extended File Attributes and in
 2. the ```.DS_Store``` files.
 
 Finder only reads the latter one and once those files are gone, there is no built-in trick that would rebuild them for you. You might be able to still search for the files with Spotlight, but appending another tag would overwrite any previous one.
 
 The solution is to create an empty workflow in OS X's Automator and follow the below steps
+
 1. add a ```Get Selected Finder Items``` box
 2. drag & drop the files and folder you'd like to 'update'
 3. add a ```Run AppleScript``` box
