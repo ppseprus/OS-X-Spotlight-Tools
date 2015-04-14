@@ -16,3 +16,14 @@ When you append a comment to a file, it is saved both in
 
 Finder only reads the latter one and once those files are gone, there is no built-in trick that would rebuild them for you. You might be able to still search for the files with Spotlight, but appending another tag would overwrite any previous one.
 
+The solution is to create an empty workflow in OS X's Automator and follow the below steps
+1. add a ```Get Selected Finder Items``` box
+2. drag & drop the files and folder you'd like to 'update'
+3. add a ```Run AppleScript``` box
+4. copy the contents of ```Rebuild DS_Store.applescript``` into the ```Run AppleScript``` box
+5. run the workflow
+
+This might take a while.
+
+
+### To be continued..
