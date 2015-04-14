@@ -20,7 +20,7 @@ Finder only reads the latter one and once those files are gone, there is no buil
 The solution is to create an empty workflow in OS X's Automator and follow the below steps
 
 1. add a ```Get Selected Finder Items``` box
-2. drag & drop the files and folder you'd like to 'update'
+2. drag & drop the files and folders you'd like to 'update'
 3. add a ```Run AppleScript``` box
 4. copy the contents of ```Rebuild DS_Store.applescript``` into the ```Run AppleScript``` box
 5. run the workflow
