@@ -17,7 +17,7 @@ When you append a comment to a file, it is saved both in
 
 Finder only reads the latter one and once those files are gone, there is no built-in trick that would rebuild them for you. You might be able to still search for the files with Spotlight, but appending another tag would overwrite any previous one.
 
-I could not find any solution this on the web. Again, frustrating.
+I couldn't find any solution to this problem on the web. Again, frustrating.
 
 The solution is to create an empty workflow in OS X's Automator and follow the below steps
 
